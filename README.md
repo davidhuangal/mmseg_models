@@ -1,5 +1,3 @@
-# More MMSeg Models
-
 <div align="center">
   <img src="resources/logo.png" width="600"/>
 </div>
