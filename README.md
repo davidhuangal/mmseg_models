@@ -21,7 +21,7 @@ This project is dedicated to implementing / adapting more models for use with th
       </td>
       <td>
         <ul>
-          <li><a href="models/decode_heads/efficientvit_head.py">EfficientViT SegHead</a></li>
+          <li><a href="models/decode_heads/efficientvit_head.py">EfficientViT Head</a></li>
         </ul>
       </td>
     </tr>

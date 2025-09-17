@@ -18,7 +18,7 @@ model = dict(
         dim=16,
     ),
     decode_head=dict(
-        type="SegHead",
+        type="EfficientViTHead",
         in_index=[1, 2, 3],
         in_channels=[64, 128, 256],
         stride_list=[8, 16, 32],

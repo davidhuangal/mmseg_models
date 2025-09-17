@@ -23,11 +23,11 @@ from models.backbones.efficientvit import (
     list_sum,
 )
 
-__all__ = ["SegHead"]
+__all__ = ["EfficientViTHead"]
 
 
 @MODELS.register_module()
-class SegHead(BaseDecodeHead):
+class EfficientViTHead(BaseDecodeHead):
     def __init__(
         self,
         in_channels: Sequence[int],

@@ -17,7 +17,7 @@ model = dict(
         depth_list=[1, 1, 1, 6, 6],
     ),
     decode_head=dict(
-        type="SegHead",
+        type="EfficientViTHead",
         in_index=[1, 2, 3],
         in_channels=[128, 256, 512],
         stride_list=[8, 16, 32],
