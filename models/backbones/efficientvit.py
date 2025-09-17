@@ -16,6 +16,7 @@ import torch.nn.functional as F
 from torch.cuda.amp import autocast
 
 from mmseg.registry import MODELS
+from mmengine.model import BaseModule
 
 
 #################################################################################
@@ -713,7 +714,7 @@ class ResidualBlock(nn.Module):
 
 
 @MODELS.register_module()
-class EfficientViTBackbone(nn.Module):
+class EfficientViTBackbone(BaseModule):
     def __init__(
         self,
         width_list: list[int],
@@ -836,7 +837,7 @@ class EfficientViTBackbone(nn.Module):
 
 
 @MODELS.register_module()
-class EfficientViTLargeBackbone(nn.Module):
+class EfficientViTLargeBackbone(BaseModule):
     def __init__(
         self,
         width_list: list[int],
