@@ -723,8 +723,9 @@ class EfficientViTBackbone(nn.Module):
         expand_ratio: float = 4,
         norm: str = "bn2d",
         act_func: str = "hswish",
+        init_cfg: dict = None,
     ) -> None:
-        super().__init__()
+        super().__init__(init_cfg=init_cfg)
         self.width_list: list[int] = []
         self.input_stem = [
             ConvLayer(
@@ -847,8 +848,9 @@ class EfficientViTLargeBackbone(nn.Module):
         qkv_dim: int = 32,
         norm: str = "bn2d",
         act_func: str = "gelu",
+        init_cfg: dict = None,
     ) -> None:
-        super().__init__()
+        super().__init__(init_cfg=init_cfg)
         block_list = block_list or ["res", "fmb", "fmb", "mb", "att"]
         expand_list = expand_list or [1, 4, 4, 4, 6]
         fewer_norm_list = fewer_norm_list or [False, False, False, True, True]
