@@ -19,13 +19,13 @@ This project is dedicated to implementing / adapting more models for use with th
     <tr valign="top">
       <td>
         <ul>
-          <li><a href="models/backbones/efficientvit.py">EfficientViT</a></li>
-          <li><a href="models/backbones/stripnet.py">StripNet</a></li>
+          <li><a href="models/backbones/efficientvit.py">EfficientViT (ICCV 2023)</a></li>
+          <li><a href="models/backbones/stripnet.py">StripNet (ArXiv 2025)</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li><a href="models/decode_heads/efficientvit_head.py">EfficientViT Head</a></li>
+          <li><a href="models/decode_heads/efficientvit_head.py">EfficientViT Head (ICCV 2023)</a></li>
         </ul>
       </td>
     </tr>
