@@ -1,4 +1,10 @@
 # More MMSeg Models
+
+<div align="center">
+  <img src="resources/logo.png" width="600"/>
+</div>
+
+
 ## Introduction
 This project is dedicated to implementing / adapting more models for use with the [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/) framework.
 
