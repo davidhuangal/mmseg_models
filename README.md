@@ -1,4 +1,4 @@
-# Adding More Models to MMSegmentation
+# More MMSeg Models
 ## Introduction
 This project is dedicated to implementing / adapting more models for use with the [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/) framework.
 
